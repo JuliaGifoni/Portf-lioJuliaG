@@ -1,0 +1,57 @@
+#inicio{
+    margin-top: 60px;
+}
+#MinhaImagem{
+    border-radius: 50%;
+    width: 30%;
+    height: 50%;
+}
+#MinhaHinna{
+    border-radius: 80%;
+    width: 30%;
+    height: 50%;
+}
+body{
+    background-color: rgba(72, 60, 138, 0.486);
+    font-family: cursive;
+}
+.icone{
+    border-radius: 50%;
+    width: 7%;
+    height: 7%;
+}
+hr{
+    border: 0,5px solid;/*Define a largura a largura e o tipo de borda*/
+    border-color: rgb(255, 255, 255);/*Define a cor da borda(linha)*/
+    width: 70%;
+}
+img{
+    width: 90%;
+    height:35%;
+}
+.ladoalado{
+    display: flex; /*usa um layout flexível para alinhar os elementos*/
+    align-items: center; /*Alinhamento vertical dos itens*/
+    justify-content: center; /*Alinhamento horizontal dos itens*/
+    gap: 1rem; /*Espaço entre os elemntos*/
+}
+.ladoalado2{
+    width: 100%;
+    height: 5%;
+    background-color: rgba(255, 255, 255, 0.397);
+    display: flex; /*usa um layout flexível para alinhar os elementos*/
+    position: fixed;
+    z-index: 1;
+    align-items: center; /*Alinhamento vertical dos itens*/
+    gap: 1rem; /*Espaço entre os elemntos*/
+}
+.menu-item{
+    text-decoration: none; /*Retira o traço abaixo do link*/
+    color: rgba(20, 3, 255, 0.801);
+    font-weight: bold; /*Define o texto como negrito*/
+    gap: 10px;
+}
+.menu-item:hover{
+    color: brown;
+    font-size: 18px;
+}
